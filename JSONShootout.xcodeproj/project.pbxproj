@@ -86,6 +86,12 @@
 		CCD5105B1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5105A1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift */; };
 		CCFD5B551D0A718C0021C2B3 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */; };
 		CCFD5B571D0A71990021C2B3 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD4968CF1DDF672A00EDB4F7 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4968CE1DDF672A00EDB4F7 /* Himotoki.framework */; };
+		CD4968D01DDF677300EDB4F7 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4968CE1DDF672A00EDB4F7 /* Himotoki.framework */; };
+		CD4968D21DDF689A00EDB4F7 /* Himotoki.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD4968CE1DDF672A00EDB4F7 /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD4968D41DDF692200EDB4F7 /* Program+Himotoki.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4968D31DDF692200EDB4F7 /* Program+Himotoki.swift */; };
+		CD4968D61DDF695600EDB4F7 /* Recording+Himotoki.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4968D51DDF695600EDB4F7 /* Recording+Himotoki.swift */; };
+		CD4D0EE31DDF6CF3000D6EEB /* Himotoki_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4D0EE21DDF6CF3000D6EEB /* Himotoki_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +121,7 @@
 				CC7A7FB81DC053E400A69A0B /* Decodable.framework in Embed Frameworks */,
 				2098D54B1DC1F5E800A15075 /* Genome.framework in Embed Frameworks */,
 				681299071DBFFCBC009960BE /* ObjectMapper.framework in Embed Frameworks */,
+				CD4968D21DDF689A00EDB4F7 /* Himotoki.framework in Embed Frameworks */,
 				CC3023441CF9616600B51746 /* Marshal.framework in Embed Frameworks */,
 				CC3023461CF9616700B51746 /* Mapper.framework in Embed Frameworks */,
 				AA2B38CC1DC0B4AE008CECCD /* JSON.framework in Embed Frameworks */,
@@ -195,6 +202,10 @@
 		CC9786C51CEBACE8005A5DEA /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD5105A1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Tests.swift; sourceTree = "<group>"; };
+		CD4968CE1DDF672A00EDB4F7 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Himotoki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4968D31DDF692200EDB4F7 /* Program+Himotoki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Program+Himotoki.swift"; sourceTree = "<group>"; };
+		CD4968D51DDF695600EDB4F7 /* Recording+Himotoki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+Himotoki.swift"; sourceTree = "<group>"; };
+		CD4D0EE21DDF6CF3000D6EEB /* Himotoki_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Himotoki_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +226,7 @@
 				CC9786B31CEBABE7005A5DEA /* ModelObjects.framework in Frameworks */,
 				CC3023411CF9616600B51746 /* Unbox.framework in Frameworks */,
 				9E9BF9CA1DCD117300548161 /* PMJSON.framework in Frameworks */,
+				CD4968D01DDF677300EDB4F7 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +253,7 @@
 				CC9786C21CEBACD0005A5DEA /* Mapper.framework in Frameworks */,
 				5BA72ED31DBECD52007ADBAE /* Decodable.framework in Frameworks */,
 				9E9BF9C81DCD116900548161 /* PMJSON.framework in Frameworks */,
+				CD4968CF1DDF672A00EDB4F7 /* Himotoki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +265,7 @@
 			children = (
 				2F2868971DE7F48A002A6F68 /* Freddy.framework */,
 				2F2868951DE7F34B002A6F68 /* Freddy.framework */,
+				CD4968CE1DDF672A00EDB4F7 /* Himotoki.framework */,
 				9E9BF9C91DCD117300548161 /* PMJSON.framework */,
 				9E9BF9C71DCD116900548161 /* PMJSON.framework */,
 				2098D5491DC1F5E800A15075 /* Genome.framework */,
@@ -318,6 +332,7 @@
 				AA2B38D31DC0B6D3008CECCD /* JSON_Tests.swift */,
 				9E9BF9CB1DCD11BA00548161 /* PMJSON_Tests.swift */,
 				2F28689B1DE7F66F002A6F68 /* Freddy_Tests.swift */,
+				CD4D0EE21DDF6CF3000D6EEB /* Himotoki_Tests.swift */,
 				CC5A1A4C1CEAE182007238F3 /* Large.json */,
 				CC5A1A181CEADE59007238F3 /* Info.plist */,
 			);
@@ -343,6 +358,7 @@
 				20A0B9561DC2584D001D8A14 /* Recording+Genome.swift */,
 				9E9BF9CF1DCD307200548161 /* Recording+PMJSON.swift */,
 				2F28689F1DE8843C002A6F68 /* Recording+Freddy.swift */,
+				CD4968D51DDF695600EDB4F7 /* Recording+Himotoki.swift */,
 				71337C921DBEBFB400DCA374 /* Program+Marshal.swift */,
 				71337C941DBEBFC300DCA374 /* Program+Mapper.swift */,
 				71337C961DBEBFD000DCA374 /* Program+Unbox.swift */,
@@ -354,6 +370,7 @@
 				20A0B9581DC25B60001D8A14 /* Program+Genome.swift */,
 				9E9BF9CD1DCD126D00548161 /* Program+PMJSON.swift */,
 				2F28689D1DE7FB58002A6F68 /* Program+Freddy.swift */,
+				CD4968D31DDF692200EDB4F7 /* Program+Himotoki.swift */,
 			);
 			path = ModelObjects;
 			sourceTree = "<group>";
@@ -516,6 +533,7 @@
 			files = (
 				CC30234B1CF9692700B51746 /* Marshal_Tests.swift in Sources */,
 				20A0B95B1DC25F03001D8A14 /* Genome_Test.swift in Sources */,
+				CD4D0EE31DDF6CF3000D6EEB /* Himotoki_Tests.swift in Sources */,
 				CC30234A1CF9692700B51746 /* Mapper_Tests.swift in Sources */,
 				CC30234C1CF9692700B51746 /* Unbox_Tests.swift in Sources */,
 				AA2B38D41DC0B6D3008CECCD /* JSON_Tests.swift in Sources */,
@@ -533,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2868A01DE8843C002A6F68 /* Recording+Freddy.swift in Sources */,
+				CD4968D41DDF692200EDB4F7 /* Program+Himotoki.swift in Sources */,
 				71337C8F1DBEBC8600DCA374 /* Recording+Unbox.swift in Sources */,
 				6812991C1DC00DBB009960BE /* Recording+ObjectMapper.swift in Sources */,
 				71337C971DBEBFD000DCA374 /* Program+Unbox.swift in Sources */,
@@ -552,6 +571,7 @@
 				7C3FCD331DC1B2AE00C82DEE /* Recording+Gloss.swift in Sources */,
 				AA2B38D21DC0B57F008CECCD /* Recording+JSON.swift in Sources */,
 				71337C911DBEBCA300DCA374 /* Recording+SwiftyJSON.swift in Sources */,
+				CD4968D61DDF695600EDB4F7 /* Recording+Himotoki.swift in Sources */,
 				20A0B9571DC2584D001D8A14 /* Recording+Genome.swift in Sources */,
 				71337C951DBEBFC300DCA374 /* Program+Mapper.swift in Sources */,
 				71337C8B1DBEBC6B00DCA374 /* Recording+Marshal.swift in Sources */,
